@@ -1,0 +1,63 @@
+#wrapper{
+	width: 960px;
+	height: 900px;
+	margin: 0 auto;
+}
+	
+#header{
+	background:black;
+	height: 10%;
+	width: 100%;
+	padding-left:2px;
+	padding-right:2px;
+
+}
+
+#tagline{
+	height:10%;
+	width:100%;
+	background: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#left, #center, #right {
+	height: 25%;
+	width: 33.33%;
+	color: white;
+	text-align: left;
+	font: italic;
+}
+
+#left{
+	background: red;
+	float: left;
+}
+
+#center{
+	background: orange;
+	float:right;
+}
+
+#right{
+	background: green;
+	float:right;
+}
+
+#main{
+	height: 65%;
+	width: 100%;
+	background: white;
+}
+
+#footer{
+	height:10%;
+	width:100%;
+	background: black;
+	text-align: center;
+	color:white;
+}
+
+p{
+	color:white;
+}

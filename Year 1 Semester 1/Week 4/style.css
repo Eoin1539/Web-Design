@@ -1,0 +1,56 @@
+body{
+	background:red;
+}
+
+#wrapper{
+	width: 960px;
+	height: 900px;
+	background: grey;
+	margin: 0 auto;
+}
+
+#header{
+	width: 100%;
+	height: 15%;
+	background: yellow;
+}
+
+#main{
+	width: 100%;
+	height: 65%;
+	background: orange;
+}
+
+#footer{
+	width: 100%;
+	height: 20%;
+	background: green;
+}
+
+#logo{
+	width: 15%;
+	height: 100%;
+	background: blue;
+	float: left;
+}
+
+#harambe{
+	height: 100%;
+	width: 85%;
+	background: purple;
+	float: right;
+}
+
+#left{
+	height: 100%;
+	width: 40%;
+	background: pink;
+	float: left;
+}
+
+#right{
+	height: 100%;
+	width: 60%;
+	background: cyan;
+	float:right;
+}

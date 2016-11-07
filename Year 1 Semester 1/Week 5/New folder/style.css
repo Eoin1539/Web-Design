@@ -1,0 +1,23 @@
+.row{
+	text-align:center;
+}
+.col-sm-12,.col-md-6{
+	background-color:red;
+}
+
+.col-sm-6,.col-md-6{
+	background-color:orange;
+}
+
+.col-sm-3,.col-md-6{
+	background-color:yellow;
+}
+
+.col-sm-2,.col-md-6{
+	background-color:green;
+}
+
+.col-sm-8,.col-md-6{
+	background-color:blue;
+}
+

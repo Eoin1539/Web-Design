@@ -1,0 +1,66 @@
+div{
+	float: right;
+	color:white;
+	height:300px;
+	width:300px;
+	text-align: center;
+	box-shadow: 10px 10px 5px black;
+	background-color: #66e0ff;
+}
+
+body{
+	background:cyan;
+}
+
+h1{
+	color:cyan;
+		
+}
+
+h2{
+	
+	color:green;
+}
+
+h3{
+	
+	color:pink;
+}
+
+h4{
+	
+	color:yellow;
+}
+
+h5{
+	
+	color:white;
+}
+
+h6{
+	
+	color:orange;
+}
+
+span{
+	font-style:italic;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+hr{
+	background:blue;
+	height:5px;
+}
+
+div #first{
+	background-color:green;
+}
+
+div #second{
+	background-color:white;
+}
+
+div #third{
+	background-color:orange;
+}
