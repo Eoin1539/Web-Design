@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+		Eoin Kirwan
+		</title>
+	</head>
+	<body>
+		
+		<ul class="topnav" id="myTopnav">
+		<div class="container" id="home">
+			<div class="row">
+				<div class="col-lg-12">
+  <h1 id="eoinkirwan">Eoin Kirwan
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li></h1>
+  <li id="be"><a href="#aboutme">Bio</a></li>
+  <li id="be"><a href="#education">About</a></li>
+  <li id="be"><a href="#skills">Skills</a></li>
+  <li id="be"><a href="#interests">Interests</a></li>
+  <li id="be"><a href="#contact">Contact</a></li>
+  <p id="clock"></p>
+  
+		</ul>
+				</div>
+			</div>
+		</div>
+		<script>
+			function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+				} else {
+			x.className = "topnav";
+						}			
+								}
+		</script>
+		<script>
+					function makeArray() {
+					for (i = 0; i<makeArray.arguments.length; i++)
+					this[i + 1] = makeArray.arguments[i];
+					}
+
+					var months = new makeArray('January','February','March','April','May',
+'					June','July','August','September','October','November','December');
+					var date = new Date();
+					var day = date.getDate();
+					var month = date.getMonth() + 1;
+					var yy = date.getYear();
+					var year = (yy < 1000) ? yy + 1900 : yy;
+
+					document.getElementById("clock") .innerHTML =(day + " " + months[month] + " " + year);
+		</script>
+					
+		<div class="container" >
+			<div class="row">
+				<div class="col-lg-12">
+				<img class="center-block" src="images/eoin.jpg"/></div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12" id="aboutme"><a id="heading" href="#aboutme"> <h1> Bio</h1></a><p id="skill1"> My name is Eoin Kirwan and I'm 18 years old. 
+				I'm currently studying computing in the National College of Ireland.</p>
+					 <p id="skill1"> I am a very polite and cheerful person with a mature approach. 
+					 I have a passion for photography, computers and technology. I enjoy working alone and as well with other people. 
+					 I especially like solving problems regarding computer errors. I'm a hardworking person who has worked in hands on roles. I am organised and efficient in my work. 
+					 I like to ensure that I complete my work on time and effectively. </p>
+				</div>
+			</div>
+		</div>
+		<div class="container" >
+			<div class="row">
+				<div class="col-lg-12"><hr>
+				</div>
+			</div>
+		</div>
+		
+	
+	<div class="container" id="education">
+		<div class="row">
+				<div class="col-lg-12">
+					<a id="heading" href="#education"><h1>About Me</h1></a>
+					<h2>Education</h2>
+					<ul>
+						<li>BSc Honours in Computing, National College of Ireland 2016 - 2020</li>
+						<li>2011 - 2016: CBS, Carlow</li>
+						<li>Junior Certificate - 2013</li>
+						<li>Leaving Certificate - 2016</li>
+						<li>August 2011 - September 2011: Colaiste Chonnacht</li>
+					</ul>
+					<h2>Work Experience</h2>
+					<ul>
+						<li>Sales Assistant at Curry's PC World</li>
+						<li>Teacher's Assistant at Holy Family Askea Boys Primary School</li>
+					</ul>
+					<h2>Achievements</h2>
+					<ul>
+						<li>Won several show jumping competitions</li>
+						<li>I was a member of Aspiro Choir since September 2011, which have won many competitions and awards</li>
+						<li>Order of Malta basic first aid course</li>
+						<li>I am formerly a member of the peace and justice group 
+						which does volunteer work in 
+						order to help charities in need of funding</li>
+					</ul>
+		
+				</div>
+		</div>
+	</div>
+	<div class="container" >
+			<div class="row">
+				<div class="col-lg-12"><hr>
+				</div>
+			</div>
+	</div>
+	<div class="container" id="skills">
+	<div class="row">
+	<div class="col-lg-12" id="backgroundskills">
+	<a href="#skills" id="heading"><h1>Skills</h1></a>
+	<h2>Computer Skills</h2>
+<p id="skill1">I have quite a bit of knowledge when it comes to Adobe Photoshop CC and have an advanced knowledge of the Microsoft office suite. I’m also very proficient in many different programming languages such as CSS, HTML and JavaScript.</p>
+
+<h2>Communication Skills</h2>
+<p id="skill1">I enjoy typing and writing. I also love giving people advice regarding technical problems and I’m very patient. I’m a very friendly person and enjoy dealing with the public.</p>
+	</div>
+	</div>
+	</div>
+	<div class="container" >
+			<div class="row">
+				<div class="col-lg-12"><hr>
+				</div>
+			</div>
+		</div>
+	
+	<div class="container" id="interests">
+		<div class="row">
+			<div class="col-lg-12">
+				<a href="#interests" id="heading"><h1>Interests</h1></a>
+					<p>Technology, Graphic design, Photography, Equestrian cross country, Show jumping, Tennis, Swimming, 
+					Krav Maga, Music
+					</p>
+			</div>
+		</div>
+	</div>
+	<div class="container" >
+			<div class="row">
+				<div class="col-lg-12"><hr>
+				</div>
+			</div>
+		</div>
+	
+			
+	
+		<script>
+		$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+		</script>
+	<div class="alt2" id="contact">
+	<div class="container" >
+			<div class="row">
+				<div class="col-lg-12">
+		<h1 id="h1form"><a href="#contact" id="white">Contact Me</h1></a>
+		</div>
+		</div>
+		</div>
+		
+		<div class="container">
+			<div class="inner contact">
+                <div class="contact-form">
+                    <form id="contact-us" method="post" action="#">
+                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                        </div>
+                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                            <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                        </div>
+                      
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p id="modal">Thanks for submitting your query! I'll be sure to contact you back shortly.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+                    </form>
+
+                   
+                </div>
+			</div>
+			<div id="paddingname">
+			</div>
+			<footer>&copy; Eoin Kirwan <br /><a href="#home"> Back to top</a></footer>
+		</div>
+	</div>
+
+	</body>
+</html>
